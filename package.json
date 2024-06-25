@@ -1,0 +1,24 @@
+{
+  "name": "npm_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fbx": "",
+    "npm-env": "node ./src/npm-env.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sar-engine/addon-helper": "^1.0.0-beta.11",
+    "3d-convert": "^1.0.9",
+    "fbx2gltf": "^0.9.7-p1",
+    "mockjs": "^1.1.0",
+    "webpack": "^5.73.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.11"
+  }
+}
