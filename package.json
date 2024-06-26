@@ -3,22 +3,24 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "fbx": "",
-    "npm-env": "node ./src/npm-env.js"
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@sar-engine/addon-helper": "^1.0.0-beta.11",
     "3d-convert": "^1.0.9",
+    "dotenv": "^16.4.5",
     "fbx2gltf": "^0.9.7-p1",
     "mockjs": "^1.1.0",
+    "ora": "^8.2.0",
     "webpack": "^5.73.0"
   },
   "devDependencies": {
+    "prettier": "^3.5.3",
     "vite": "^5.0.11"
   }
 }
