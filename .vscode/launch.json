@@ -7,6 +7,24 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "使用 Nodemon + esno 启动",
+      "runtimeExecutable": "nodemon",
+      "runtimeArgs": [
+        "--exec",
+        "esno",
+        "--quiet" // 不显示 esno 的日志
+      ],
+      "program": "${file}",
+      "restart": true,
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnFirstSessionStart",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "使用 Nodemon 启动",
       "runtimeExecutable": "nodemon",
       "program": "${file}",
