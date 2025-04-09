@@ -6,6 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "concurrently:echo1": "echo 1",
+    "concurrently:echo2": "echo 2",
     "format": "prettier --write ."
   },
   "keywords": [],
@@ -13,7 +15,10 @@
   "license": "ISC",
   "dependencies": {
     "3d-convert": "^1.0.9",
+    "concurrently": "^9.1.2",
+    "dirname-filename-esm": "^1.1.2",
     "dotenv": "^16.4.5",
+    "express": "^5.1.0",
     "fbx2gltf": "^0.9.7-p1",
     "mockjs": "^1.1.0",
     "ora": "^8.2.0",
