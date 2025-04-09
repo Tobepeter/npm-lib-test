@@ -7,7 +7,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "使用 Nodemon + esno 启动",
+      "name": "esno",
       "runtimeExecutable": "nodemon",
       "runtimeArgs": [
         "--exec",
@@ -25,7 +25,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "使用 Nodemon 启动",
+      "name": "nodemon",
       "runtimeExecutable": "nodemon",
       "program": "${file}",
       "restart": true, // nodemon会重启进程，需要restart保持会话

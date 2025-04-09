@@ -22,7 +22,8 @@
     "fbx2gltf": "^0.9.7-p1",
     "mockjs": "^1.1.0",
     "ora": "^8.2.0",
-    "webpack": "^5.73.0"
+    "webpack": "^5.73.0",
+    "why-is-node-running": "^3.2.2"
   },
   "devDependencies": {
     "prettier": "^3.5.3",
